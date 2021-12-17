@@ -9,3 +9,6 @@
 * механизмы адаптивной верстки
 * кг мандарин
 * пара шоколадок
+
+### Ссылка на GitHub Pages
+https://agilyova.github.io/russian-travel
