@@ -26,6 +26,14 @@
   }
 }
 
+/*Взята точка 680, тк уже она уже была использована в заголовке в блоке lead*/
+@media screen and (max-width: 680px) {
+  .place {
+    grid-template-columns: 230px 1fr;
+  }
+}
+
+
 @media screen and (max-width: 550px) {
   .place {
     grid-template-columns: 1fr;

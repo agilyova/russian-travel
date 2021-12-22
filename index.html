@@ -12,10 +12,14 @@
     <div class="page">
       <header class="header">
         <img class="header__logo" src="images/header-logo.svg" alt="логотип">
-        <div class="header__lang-links">
-            <a class="header__lang-link" href="#">Ru</a>
+        <ul class="header__lang-links">
+          <li class="header__lang-link-item">
+            <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
+          </li>
+          <li class="header__lang-link-item">
             <a class="header__lang-link" href="#">En</a>
-        </div>
+          </li>
+        </ul>
       </header>
       <main class="content">
         <section class="lead">
@@ -153,23 +157,25 @@
         </section>
       </main>
       <footer class="footer">
-        <ul class="footer__links">
-          <li class="footer__link-item">
-            <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-          </li>
-          <li class="footer__link-item">
-            <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-          </li>
-          <li class="footer__link-item">
-            <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-          </li>
-          <li class="footer__link-item">
-            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-          </li>
-          <li class="footer__link-item">
-            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-          </li>
-        </ul>
+        <nav class="footer__nav-links">
+          <ul class="footer__links">
+            <li class="footer__link-item">
+              <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+            </li>
+            <li class="footer__link-item">
+              <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+            </li>
+          </ul>
+        </nav>
         <p class="footer__copyright">&copy; 2021. Гилева Александра</p>
       </footer>
     </div>
